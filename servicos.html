@@ -10,19 +10,17 @@
 <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <header>
-    <h1>Serviços Oferecidos</h1>
-    <nav>
-      <ul>
-  <li><i class="fas fa-dumbbell"></i> Pilates</li>
-  <li><i class="fas fa-child"></i> RPG (Reeducação Postural Global)</li>
-  <li><i class="fas fa-spa"></i> Massagens Relaxantes</li>
-  <li><i class="fas fa-leaf"></i> Decapagem Facial</li>
-  <li><i class="fas fa-water"></i> Limpeza de Pele</li>
-  <li><i class="fas fa-user-md"></i> Tratamento Pós-Cirúrgico</li>
-</ul>
-    </nav>
-  </header>
+ <header>
+  <div class="menu-toggle" onclick="toggleMenu()">
+    <i class="fas fa-bars"></i>
+  </div>
+  <nav class="navbar" id="navbar">
+    <a href="index.html"><i class="fas fa-home"></i> Início</a>
+    <a href="servicos.html"><i class="fas fa-concierge-bell"></i> Serviços</a>
+    <a href="profissional.html"><i class="fas fa-user-md"></i> Profissional</a>
+    <a href="contato.html"><i class="fas fa-envelope"></i> Contato</a>
+  </nav>
+</header>
 
   <main>
     <ul>
@@ -40,6 +38,7 @@
   </footer>
 </body>
 </html>
+
 
 
 

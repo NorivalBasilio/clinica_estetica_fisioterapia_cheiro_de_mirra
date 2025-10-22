@@ -269,6 +269,82 @@ header {
   margin-bottom: 15px;
   color: #333;
 }
+.contato {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+  color: #222;
+}
+
+.contato h1 {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #007bff;
+}
+
+.contato section {
+  margin-bottom: 40px;
+}
+
+.info-contato ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.info-contato li {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.formulario form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.formulario label {
+  font-weight: bold;
+  color: #333;
+}
+
+.formulario input,
+.formulario textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.formulario button {
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.formulario button:hover {
+  background-color: #0056b3;
+}
+
+.mapa-fake {
+  width: 100%;
+  height: 300px;
+  background-color: #e0e0e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  font-size: 18px;
+  border-radius: 6px;
+}
+
 
 
 

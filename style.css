@@ -227,6 +227,28 @@ header {
   margin-bottom: 6px;
   line-height: 1.5;
 }
+.pagina-inicial {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+  color: #222;
+}
+
+.pagina-inicial h1 {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+.pagina-inicial p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  color: #333;
+}
+
 
 
 
